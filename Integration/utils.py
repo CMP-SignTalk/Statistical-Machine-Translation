@@ -1,7 +1,6 @@
-import numpy as np
 from nltk.tokenize import word_tokenize
 import dill
-
+import json
 
 # Takes a list of sentences, preprocess them and collects the vocabularies.
 def preprocess(sentences):
@@ -18,11 +17,20 @@ def preprocess(sentences):
         tokenized_sentences.append(tokenized_senetence) 
     return list(vocabs), tokenized_sentences
 
-def load_data(path_to_data):
-    with open(path_to_data,'r') as f:
-        data = [line.strip() for line in f.readlines()]
-    return data
+def load_data(path_to_data, num_of_sentences = None):
+    with open(path_to_data) as file:
+        data = json.load(file)
+    
+    if num_of_sentences is not None: data = data[:num_of_sentences]
 
+    en=[]
+    asl=[]
+    for data_item in data:
+        en.append(data_item["en"])
+        asl.append(data_item["asl"])
+
+    return en, asl
+    
 def save_model(model, filename):
     with open(filename, 'wb') as f:
         dill.dump(model, f)
