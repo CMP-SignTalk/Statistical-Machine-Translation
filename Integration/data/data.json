@@ -1,34 +1,42 @@
 [
   {
+    "id": 1,
     "en": "the girl is in france",
-    "asl": "la fille est en france"
+    "asl": "girl be in france"
   },
   {
+    "id": 2,
     "en": "paris is a city in france",
-    "asl": "paris est une ville en france"
+    "asl": "paris be city in france"
   },
   {
+    "id": 3,
     "en": "the girl is beautiful",
-    "asl": "la fille est belle"
+    "asl": "girl be beautiful"
   },
   {
+    "id": 4,
     "en": "paris is a beautiful city",
-    "asl": "paris est une belle ville"
+    "asl": "paris be beautiful city"
   },
   {
+    "id": 5,
     "en": "the girl is in church",
-    "asl": "la fille est a la eglise"
+    "asl": "girl be in church"
   },
   {
+    "id": 6,
     "en": "a church is in paris",
-    "asl": "une eglise est en paris"
+    "asl": "church be in paris"
   },
   {
+    "id": 7,
     "en": "the church is beautiful",
-    "asl": "la eglise est belle"
+    "asl": "church be beautiful"
   },
   {
+    "id": 8,
     "en": "france has a beautiful church",
-    "asl": "la france a une belle eglise"
+    "asl": "france have beautiful church"
   }
 ]
