@@ -354,15 +354,12 @@ class LM:
         self.bigram_lm.train()
         self.trigram_lm.train()
 
-    def calc_sentence_probability(self, sentence):
+    def calc_sentence_probability(self, sentence, lambda1 = 0.3, lambda2 = 0.4, lambda3 = 0.3):
         sentence =  sentence.lower()
         sentence = sentence.split()
         sentence.insert(0, "<s>")
         sentence.insert(len(sentence), "</s>")
         probability = 1
-        lambda1 = 0.2
-        lambda2 = 0.3
-        lambda3 = 0.5
         for i in range(2, len(sentence)):
             trigram_probability = self.trigram_lm.calc_probability(sentence[i-2], sentence[i-1], sentence[i])
             bigram_probability = self.bigram_lm.calc_probability(sentence[i-1], sentence[i])
@@ -370,15 +367,12 @@ class LM:
             probability *= (lambda1 * trigram_probability + lambda2 * bigram_probability + lambda3 * unigram_probability)
         return probability        
 
-    def calc_log_sentence_probability(self, sentence):
+    def calc_log_sentence_probability(self, sentence, lambda1 = 0.3, lambda2 = 0.4, lambda3 = 0.3):
         sentence =  sentence.lower()
         sentence = sentence.split()
         sentence.insert(0, "<s>")
         sentence.insert(len(sentence), "</s>")
         probability = 0
-        lambda1 = 0.2
-        lambda2 = 0.3
-        lambda3 = 0.5
         for i in range(2, len(sentence)):
             trigram_probability = self.trigram_lm.calc_probability(sentence[i-2], sentence[i-1], sentence[i])
             bigram_probability = self.bigram_lm.calc_probability(sentence[i-1], sentence[i])

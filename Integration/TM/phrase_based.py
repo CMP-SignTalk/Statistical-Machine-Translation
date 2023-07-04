@@ -17,13 +17,13 @@ class PhraseBasedModel:
         self.f_e_phrase_table = None
 
     # Extract all the possible phrase pairs from the given sentence pairs using the IBM1 model and store them to the phrase_table
-    def extrat_phrase_pairs(self):
+    def extrat_phrase_pairs(self, max_phrase_length = 0):
         self.phrase_table = [] # Contains tuples of the form (f_start, f_end, f_phrase, e_phrase)
         for i in range(len(self.f_corpus)):
             srctext = self.f_corpus[i]
             trgtext = self.e_corpus[i]          
             alignment = self.f_e_alignment[i]
-            phrases = phrase_extraction(srctext, trgtext, alignment)
+            phrases = phrase_extraction(srctext, trgtext, alignment, max_phrase_length)
             self.phrase_table.extend(phrases)
     
     # Score the phrase pairs using the relative frequency
