@@ -1,0 +1,157 @@
+[
+  {
+    "id": 1,
+    "en": "How are you",
+    "asl": "How be you"
+  },
+  {
+    "id": 1,
+    "en": "How is love",
+    "asl": "How be love"
+  },
+  {
+    "id": 2,
+    "en": "What is your name",
+    "asl": "What be your name"
+  },
+  {
+    "id": 2,
+    "en": "What is your age",
+    "asl": "What be your age"
+  },
+  {
+    "id": 2,
+    "en": "What is love",
+    "asl": "What be love"
+  },
+  {
+    "id": 2,
+    "en": "What do you want",
+    "asl": "What do you want"
+  },
+  {
+    "id": 2,
+    "en": "My name is X",
+    "asl": "My name be X"
+  },
+  {
+    "id": 3,
+    "en": "Where do you live",
+    "asl": "Where do you live"
+  },
+  {
+    "id": 3,
+    "en": "How do you live",
+    "asl": "How do you live"
+  },
+  {
+    "id": 3,
+    "en": "How do you love",
+    "asl": "How do you love"
+  },
+  {
+    "id": 3,
+    "en": "How do you help",
+    "asl": "How do you help"
+  },
+  {
+    "id": 3,
+    "en": "Where are you from",
+    "asl": "Where be you from"
+  },
+  {
+    "id": 3,
+    "en": "I am from X",
+    "asl": "I be from X"
+  },
+  {
+    "id": 4,
+    "en": "Do you want help",
+    "asl": "Do you want help"
+  },
+  {
+    "id": 4,
+    "en": "Do you want love",
+    "asl": "Do you want love"
+  },
+  {
+    "id": 5,
+    "en": "I am a teacher",
+    "asl": "I be a teacher"
+  },
+  {
+    "id": 5,
+    "en": "I want love",
+    "asl": "I want love"
+  },
+  {
+    "id": 5,
+    "en": "I want help",
+    "asl": "I want help"
+  },
+  {
+    "id": 6,
+    "en": "I love my teacher",
+    "asl": "I love my teacher"
+  },
+  {
+    "id": 6,
+    "en": "I help my teacher",
+    "asl": "I help my teacher"
+  },
+  {
+    "id": 7,
+    "en": "I love my school",
+    "asl": "I love my school"
+  },
+  {
+    "id": 8,
+    "en": "I am sick",
+    "asl": "I be sick"
+  },
+  {
+    "id": 8,
+    "en": "I am sign talk",
+    "asl": "I be sign talk"
+  },
+  {
+    "id": 8,
+    "en": "I am",
+    "asl": "I be"
+  },
+  {
+    "id": 8,
+    "en": "am",
+    "asl": "be"
+  },
+  {
+    "id": 9,
+    "en": "My age is 22",
+    "asl": "My age be 22"
+  },
+  {
+    "id": 9,
+    "en": "22 is my age",
+    "asl": "22 be my age"
+  },
+  {
+    "id": 10,
+    "en": "Hello sign talk",
+    "asl": "Hello sign talk"
+  },
+  {
+    "id": 10,
+    "en": "what is sign talk",
+    "asl": "what be sign talk"
+  },
+  {
+    "id": 10,
+    "en": "how is sign talk",
+    "asl": "how be sign talk"
+  },
+  {
+    "id": 10,
+    "en": "sign",
+    "asl": "sign"
+  }
+]
